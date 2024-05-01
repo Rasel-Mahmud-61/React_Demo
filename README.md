@@ -8,7 +8,8 @@
 # component 
 
 
-## state management '
+## state management 
+<p> this is demo repo </p>
 
 ## react hook
 
