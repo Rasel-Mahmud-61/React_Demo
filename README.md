@@ -8,8 +8,6 @@
 
 
 
-## state management 
-
 
 ## react hook
 
