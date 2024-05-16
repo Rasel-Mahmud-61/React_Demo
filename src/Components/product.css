@@ -1,0 +1,37 @@
+.products_container {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: space-between; /* Distribute items evenly with space between */
+    padding: 16px; /* Add padding to the container */
+  }
+  
+  .product_div {
+
+    /* ^ Adjusted to account for padding */
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 16px; /* Add margin between products */
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .id {
+    color: aquamarine;
+  }
+  
+  .title {
+    color: blue;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .image {
+    width: 150%;
+    height:150px;
+    object-fit: cover;
+  }
+  
