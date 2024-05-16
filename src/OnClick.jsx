@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-export default function Event(){
+export default function OnClick(){
 
-    const[count,setCount]=useState(0);
+    const [ChangeValue,setChange]=useState(0);
 
-    const  handleClick=(e)=>{
+    const  handleChange=(e)=>{
 
-        setCount(count+1)
+        setChange(e.target.value);
      
       }
 
@@ -14,9 +14,9 @@ export default function Event(){
 
       
          <div>
-              <button onClick={handleClick}> Inrement </button> 
+              <input type="text" onChange={handleChange}/>
 
-            <p> Count:{count}</p>  
+            <p> {ChangeValue}</p>  
          </div>
     )
 }
