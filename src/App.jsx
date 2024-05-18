@@ -1,6 +1,6 @@
 import React  from "react";
 
-import DataFetch from './HOOKS/DataFetch';
+import FetchData from './CustomHook/FetchData';
 
 
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <DataFetch/>
+    <FetchData/>
     </>
   )
 }
