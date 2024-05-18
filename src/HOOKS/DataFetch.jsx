@@ -14,11 +14,16 @@ export default function DataFetch() {
             .catch((error) => console.error('Error fetching todos:', error));
     }, []);
 
+    const Element=
+      todos.map((todo) => (
+        <p key={todo.id}>{todo.todo}</p> // Adding a unique key prop
+    ))
+
     return (
         <div>
-            {todos.map((todo) => (
-                <p key={todo.id}>{todo.todo}</p> // Adding a unique key prop
-            ))}
+
+            {Element}
+
         </div>
     );
 }
