@@ -1,6 +1,7 @@
 import React  from "react";
 
-import FetchData from './CustomHook/FetchData';
+import ToastMessage from './ToastNotofication/ToastMessage';
+
 
 
 
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <>
-    <FetchData/>
+    <ToastMessage/>
     </>
   )
 }
