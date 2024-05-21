@@ -22,7 +22,7 @@ export default function useFetch(url){
 
 ```
 
-# ✍️ Toast Notification'
+# ✍️ Toast Notification  
 
 ```
 import React from "react";
